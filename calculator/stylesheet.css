@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+.grid {
+	width: 100%;
+}
+
+.num {
+	width: 10%;
+	height: 100px;
+	float: left;
+	border: solid black 1px;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+.buttonbar {
+	width: 100%;
+}
+
+.buttonbar button{
+	width: 20%;
+	margin-top: 0.5%;
+	height: 30px;
+	float: left;
+}
