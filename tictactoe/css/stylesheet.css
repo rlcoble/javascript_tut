@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+.board{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 604px;
+	height: 604px;
+	border: 2px solid black;
+}
+
+.square{
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 2px solid black;
+	text-align: center;
+	font: 200px/200px sans-serif;
+}
+
+.square:hover{
+	background-color: red;
+}
