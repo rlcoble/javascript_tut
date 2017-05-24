@@ -65,10 +65,10 @@ function Player (name){
 
 $(document).ready(function(){
 	//var player1 = prompt("Player 1's name:");
-	p1 = new Player('Player 1');
+	var p1 = new Player('Player 1');
 
 	//var player2 = prompt("Player 2's name:");
-	p2 = new Player('Player 2');
+	var p2 = new Player('Player 2');
 
 	var b = new Board(p1, p2);
 	b.init();

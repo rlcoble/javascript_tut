@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+.board{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 902px;
+	height: 902px;
+	border: 1px solid black;
+}
+
+.cell{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+
+	text-align: center;
+	line-height: 100px;
+}
+
+.hide{
+	display: none;
+}
+
+.mine{
+	background-color: red;
+}
+
+.uncover{
+	background-color: green;
+}
+
+.flag{
+	background-color: blue;
+}
